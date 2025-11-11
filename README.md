@@ -18,26 +18,28 @@ No manual controller is needed – the entire workflow executes automatically wh
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🧱 Project Structure
-![Screenshot](images/project-structure.png)
+### Project Structure
+<img width="230" height="275" alt="image" src="https://github.com/user-attachments/assets/e6e21b49-89c9-425e-97b4-423673cd7e1f" />
 
-### 🏗️ Build Success
-![Screenshot](images/build-success.png)
 
-### 🖥️ Application Execution (Console Output)
-![Screenshot](images/app-run-output.png)
+### Build Success
+<img width="611" height="370" alt="image" src="https://github.com/user-attachments/assets/89af279e-a356-4d18-b8e4-c50aa4ae2a18" />
 
-### ✅ Final Output Example
+
+### Application Execution (Console Output)
+<img width="766" height="431" alt="image" src="https://github.com/user-attachments/assets/22505d95-9b6b-4009-b219-fef88490af41" />
+
+
+### Final Output Explaination
 ```
 Webhook URL: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
 Access Token: eyJhbGciOiJIUzI1NiJ9...
 Failed with status 401 UNAUTHORIZED
 Response body: {"timestamp":"2025-11-11T10:22:54.853+00:00","status":401,"error":"Unauthorized","path":"/testWebhook/JAVA"}
 ```
-
-🛈 **Note:** The `401 Unauthorized` is expected since the official Bajaj Finserv API token validation endpoint is no longer active.  
+The `401 Unauthorized` is expected since the official Bajaj Finserv API token validation endpoint is no longer active.  
 The app logic, structure, and request format are fully correct and verified.
 
 ---
@@ -108,4 +110,3 @@ BAJAJ_FINSERV/
 - GitHub repository link  
 - Public JAR download link  
 
-Form Link: [https://forms.office.com/r/2cSHMsAbgr](https://forms.office.com/r/2cSHMsAbgr)
