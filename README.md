@@ -76,32 +76,6 @@ mvn clean package -DskipTests
 java -jar target/BAJAJ_FINSERV-0.0.1-SNAPSHOT.jar
 ```
 
----
-
-## 🧾 Sample Console Output
-```
-Webhook URL: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
-Access Token: eyJhbGciOiJIUzI1NiJ9...
-Failed with status 401 UNAUTHORIZED
-Response body: {"timestamp":"2025-11-11T10:22:54.853+00:00","status":401,"error":"Unauthorized","path":"/testWebhook/JAVA"}
-```
-
----
-
-## 🧱 Project Structure
-```
-BAJAJ_FINSERV/
- ├─ src/
- │  ├─ main/java/BAJAJ/FINSERV/BajajFinservHealthApplication.java
- │  └─ main/resources/application.properties
- ├─ target/
- │  └─ BAJAJ_FINSERV-0.0.1-SNAPSHOT.jar
- ├─ pom.xml
- └─ README.md
-```
-
----
-
 ## 📤 Submission Checklist
 ✅ Source code hosted on public GitHub repo  
 ✅ Built JAR file (`target/BAJAJ_FINSERV-0.0.1-SNAPSHOT.jar`)  
